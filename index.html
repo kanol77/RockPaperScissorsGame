@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="icon" href="scissors.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <dialog class="modal">
+        Set your winning score:<br><br>
+        <input type="number" class="scoreMax" min="1">
+        <button id="close">Submit</button>
+    </dialog>
+	
+	<dialog class="modalA">
+        <center>Attributions:</center> <br>
+        <ul>
+        <li><a href="https://www.flaticon.com/free-icons/scissors" title="scissors icons">Scissors icons created by Freepik - Flaticon</a></li>
+        <li><a href="https://www.flaticon.com/free-icons/rock" title="rock icons">Rock icons created by Icongeek26 - Flaticon</a></li>
+        <li><a href="https://www.flaticon.com/free-icons/blank-paper" title="blank paper icons">Blank paper icons created by JunGSa - Flaticon</a></li>
+        </ul>
+        <input type="button" value="Close" alt="close" class="closeButton">
+    </dialog>
+
+    <div class="header js-header">"Rock, Paper, Scissors" Game</div>
+    <div class="playfield js-playfield">
+        <div class="option rockOption">
+            <img src="rock.png" alt="rock" class="image">
+        </div>
+        <div class="option paperOption">
+            <img src="paper.png" alt="paper" class="image" >
+        </div>
+        <div class="option scissorsOption">
+            <img src="scissors.png" alt="scissors" class="image">
+        </div>
+    </div>
+
+    <input type="button" value="Reset" id="reset">
+    <div class="status">Pick your choice!</div>
+    <div class="scores"></div>
+    <div class="footer">Site created by: Kanol77 <button class="openButton">Show Attributions</button></div>
+    
+</body>
+</html>
