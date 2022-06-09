@@ -7,7 +7,7 @@ body{
     padding: 0;
     background-color: rgb(64, 64, 64);
     overflow: hidden;
-	font-family: sans-serif;
+    font-family: 'Segoe UI';
 }
 
 .header{
